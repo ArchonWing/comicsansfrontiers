@@ -6,5 +6,6 @@ p {
 }
 
 ul {
-  border: 5px solid black;
+  width: fit-content;
+  border: 5px solid black fit-content;
 }
