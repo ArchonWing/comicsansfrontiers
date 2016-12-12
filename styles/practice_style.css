@@ -1,6 +1,10 @@
-p, li {
+p {
   color: red;
   border: 1px;
   font-size: 17px;
   width: 500px;
+}
+
+ul {
+  border: 5px solid black;
 }
