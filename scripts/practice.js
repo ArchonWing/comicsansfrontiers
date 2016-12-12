@@ -1,6 +1,13 @@
 var myHeading = document.querySelector('h1');
-myHeading.textContent = 'Move Faster!!!';
+myHeading.textContent = 'Move Faster!';
 
-var myVariable = 721;
+myHeading.onclick = function(){
 
-myHeading.textContent = myVariable;
+  var message = myHeading.textContent;
+  if (message === 'Move Faster!'){
+    myHeading.textContent = 'I\'m already moving fast!';
+  } else {
+    myHeading.textContent = 'Move Faster!';
+  }
+
+}
