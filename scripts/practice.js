@@ -9,3 +9,7 @@ myHeading.onclick = function(){
     myHeading.textContent = 'Move Faster!';
   }
 }
+
+var myButton = document.querySelector('button').onclick = function(){
+  alert('Stop touching me!');
+}
