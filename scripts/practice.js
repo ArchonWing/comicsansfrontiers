@@ -1,15 +1,19 @@
 var myHeading = document.querySelector('h1');
-myHeading.textContent = 'Move Faster!';
+var myButton = document.querySelector('button');
 
-myHeading.onclick = function(){
-  var message = myHeading.textContent;
-  if (message === 'Move Faster!'){
-    myHeading.textContent = 'I\'m already moving fast!';
-  } else {
-    myHeading.textContent = 'Move Faster!';
-  }
+if(!localStorage.getItem('name')) {
+  setUserName();
+} else {
+  var storedName = localStorage.getItem('name');
+  myHeading.textContent = 'Welcome to CSF, ' + storedName;
 }
 
-var myButton = document.querySelector('button').onclick = function(){
-  alert('Stop touching me!');
+myButton.onclick = function() {
+  setUserName();
+}
+
+function setUserName() {
+  var userName = prompt('Enter user name: ');
+  localStorage.setItem('name', userName);
+  myHeading.textContent = 'Welcome to CSF, ' + userName;
 }
