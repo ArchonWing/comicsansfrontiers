@@ -1,9 +1,4 @@
-p {
-  color: red;
-  border: 1px;
-  font-size: 17px;
-  width: 500px;
-}
+
 
 ul {
   width: fit-content;
@@ -20,4 +15,27 @@ h1 {
   padding: 20px 0;
   color: #00539F;
 
+}
+
+
+#sidebar {
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  width:6em;
+  background-color: gray;
+}
+
+#sidebar p{
+  padding-left:1em;
+  border: 2px solid black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+#main {
+  margin-left: 6em;
 }
