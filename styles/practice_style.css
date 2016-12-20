@@ -40,6 +40,6 @@ h1 {
   margin-left: 6em;
 }
 
-#htmldog a:hover{
+#htmldog:hover{
   text-decoration: none;
 }
