@@ -39,3 +39,7 @@ h1 {
 #main {
   margin-left: 6em;
 }
+
+#htmldog a:hover{
+  text-decoration: none;
+}
