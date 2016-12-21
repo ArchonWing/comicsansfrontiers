@@ -2,11 +2,7 @@
 
 div{margin:0; padding:0;}
 
-div div {background :#A4Ca39;}
-
-.head,.body{
-  position:relative;
-}
+div div {background :#A4Ca39; position:relative}
 
 .android {
   height: 404px; width: 334px;
@@ -59,9 +55,12 @@ div div {background :#A4Ca39;}
 }
 
 .body {
-  width: 220; height: 184;
+  width: 220px; height: 184px;
   top: 40px;
   border-radius: 0 0 30px 30px;
+  position:relative;
+  background :#A4Ca39
+  border:1px solid black;
 }
 
 .l_arm, .r_arm, .l_leg, .r_leg{
