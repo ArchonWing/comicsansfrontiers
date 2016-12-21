@@ -74,7 +74,7 @@ div div {background :#A4Ca39; position:relative}
 }
 
 .l_arm{
-  left: -58;
+  left: -58px;
   border-radius: 25px;
 }
 
@@ -83,7 +83,7 @@ div div {background :#A4Ca39; position:relative}
 }
 
 .r_arm{
-  right: -58;
+  right: -58px;
   border-radius: 25px;
 }
 
