@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interlibrary P0wns</title>
+
+  <link rel="stylesheet" type="text/css" href="/styles/index_style.css" >
+</head>
+<body>
+  <div id="sidebar">
+<<<<<<< HEAD
+    <a href="index.html"><p>Home</p></a>
+    <a href="html/practice.html"><p>Practice</p></a>
+    <a href="html/android.html"><p>Android</p></a>
+
+||||||| merged common ancestors
+    <a href="index.html"><p>Home</p></a>
+    <a href="html/practice.html"><p>Practice</p></a>
+=======
+    <a href="/index.html"><p>Home</p></a>
+    <a href="/html/practice.html"><p>Practice</p></a>
+>>>>>>> 07c6e9c2c5207233afeedcdbf3f8a1d16ca70346
+  </div>
+
+  <div id="main">
+    <h1>Welcome to Comic Sans Frontiers!</h1>
+
+    <h3>Now with git hooks!</h3>
+
+    <a href="https://code.tutsplus.com/tutorials/the-perfect-workflow-with-git-github-and-ssh--net-19564" target="_blank">
+      <img src="https://abdelkrim.files.wordpress.com/2014/02/aaarr-webhooks-pirate.gif" alt="Pirate with hook" style="max-width: 30%; height: auto"/>
+    </a>
+
+    <hr>
+
+    <p>Hi There!</p>
+
+    <p>This site will soon be home of a pet project I've been wanting to set up for a few years:
+      The ability for those nerdballers with extensive comic book, sci-fi novel,
+      and RGP rulebook libraries to upload their finely curated volumes and share them with a larger
+      community.</p>
+
+    <p>There are quite a few components I have zero skill points in right now
+      (javascript, website login mechanisms, sumoning Cthonians with Dho-Nha geometry curves).
+      I'll provide updates to the site as I gain exp, and hope to have a primitive model running this winter
+      after I finish the database course I'm currently taking.</p>
+
+    <p>Thanks for visiting, campers!</p>
+
+    <hr>
+
+
+    <p><b>UPDATE: 11/23/16</b> My database course is wrapping up next month,
+      I hope to get a basic site running over winter break. </b></p>
+
+    <p><b>UPDATE: 10/11/16</b> I've been working on some basic HTML skillz and Git syncing, I hope to
+      start a "Recent Changes" segment on the site soon.  (Just got Atom git pushing working!...I think, right?) </p>
+
+    <a href='html/practice.html'>Practice Link</a>
+  </div>
+
+
+  <div align=center id="counter"><a href='http://www.counter12.com'><img src='http://www.counter12.com/img-3wc956By-3.gif' border='0' alt='web counter free'></a><script type='text/javascript' src='http://www.counter12.com/ad.js?id=3wc956By'></script></div>
+
+</body>
+</html>
