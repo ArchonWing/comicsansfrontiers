@@ -1,0 +1,82 @@
+div div {
+  position:relative;
+  background: grey;
+}
+
+.bender{
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+.head{
+  width:100px;
+  height: 130px;
+  top: 150px;
+  left:150px;
+  border-top:none;
+
+}
+
+.ant{
+  position: absolute;
+  width:10px; height: 70px;
+  left:50%;
+  margin-left: -5px;
+  margin-top: -100px;
+  border-bottom: 0px;
+}
+
+.dome{
+  position:absolute;
+  border-radius: 50px 50px 0 0;
+  height: 50px; width: 100px;
+  top:-50px;
+  border-bottom: none;
+
+}
+.visor{
+  position:absolute;
+  background-color: black;
+  border: 4px gray solid;
+  width:130px; height: 50px;
+  border-radius: 50px;
+  top: 5px; left:50%;
+  margin-left: -70px;
+}
+
+.l_eye, .r_eye {
+  position: absolute;
+  height:46px; width: 46px;
+  border-radius: 23px;
+  background-color:lightyellow;
+  top: 2px;
+}
+
+.l_eye{ left:17px;}
+
+.r_eye{ right:17px;}
+
+.l_pup, .r_pup {
+  position: absolute;
+  height:12px; width: 12px;
+  background-color:black;
+  top: 20px;
+}
+
+.l_pup{ left:34px;}
+
+.r_pup{ right:34px;}
+
+.mouth{
+    position: absolute;
+    width: 80px; height: 26px;
+    left:50%;
+    margin-left: -43px;
+    bottom:20px;
+    background-color: lightyellow;
+    border-radius: 18px;
+    background: repeating-linear-gradient(90deg, black, black 3px, lightyellow, lightyellow 12px );
+
+    border:4px solid black
+}
