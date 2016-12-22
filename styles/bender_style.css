@@ -5,15 +5,14 @@ div div {
 
 .bender{
   position: relative;
-  height: 350px;
-  width: 150px;
+  height: 350px; width: 150px;
+  margin: 0 auto;
 }
 
 .head{
   width:100px;
   height: 130px;
   top: 150px;
-  left:100px;
   border-top:none;
 
 }
