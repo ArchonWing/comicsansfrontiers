@@ -40,12 +40,24 @@ nav ul li a{
   color:black
 }
 
-div#main{
-  margin: 0 1em;
+div.row:after{
+  clear:both;
+  content:"";
+  display:table;
 }
 
+div.row {
 
+}
 
+div.col{
+  float: left;
+  background: #999;
+  padding:10px .5%;
+  margin: 10px .5%;
+  width: 31%;
+  border-radius:5px;
+}
 
 footer{
 
