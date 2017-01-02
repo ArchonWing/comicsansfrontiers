@@ -1,11 +1,7 @@
-#sidebar {
-  position:fixed;
-  top:0;
-  bottom:0;
-  left:0;
-  width:6em;
-  background-color: gray;
+body{
+  background: beige;
 }
+
 
 #sidebar {
   position:fixed;
