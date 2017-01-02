@@ -1,20 +1,10 @@
-
-#content{
-
-
-
-}
-
-
 #sidebar {
-
   position:fixed;
   top:0;
   bottom:0;
   left:0;
   width:6em;
   background-color: gray;
-
 }
 
 #sidebar {
@@ -35,9 +25,7 @@
 }
 
 #main {
-
   margin-left: 6em;
-
 }
 
 #counter {
