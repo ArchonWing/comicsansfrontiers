@@ -1,0 +1,50 @@
+#roc_outer{
+  text-align: center
+}
+
+#roc_title{
+  font-size: 2em;
+  text-align: center;
+}
+
+#roc{
+  width: 800px;
+  height:320px;
+  background-color: #aaa;
+  margin: auto auto;
+}
+
+#hull{
+  position: relative;
+  margin: 0 auto;
+  width:600px;
+  height:72px;
+  background-color: #555;
+}
+
+#nozzle{
+  background-color: #777;
+  height: 120px;
+  width: 70px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 200px 100px;
+  border-bottom-right-radius: 200px 100px;
+  border-bottom-left-radius: 0;
+}
+
+#engine{
+  position: absolute;
+  margin-left: 60px;
+  background-color: #555;
+  width: 56px;
+  height: 132px;
+}
+
+
+
+
+.vert_center{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
