@@ -18,26 +18,64 @@
   position: relative;
   margin: 0 auto;
   width:600px;
-  height:72px;
-  background-color: #555;
+  height:90px;
+  background-color: #444;
 }
 
 #nozzle{
-  background-color: #777;
+  background-color: #666;
   height: 120px;
-  width: 70px;
+  width: 90px;
   border-top-left-radius: 0;
   border-top-right-radius: 200px 100px;
   border-bottom-right-radius: 200px 100px;
   border-bottom-left-radius: 0;
+  margin-left:-10px;
 }
 
 #engine{
   position: absolute;
   margin-left: 60px;
-  background-color: #555;
-  width: 56px;
-  height: 132px;
+  width:0;
+  height: 144px;
+  border-right: 64px solid #333;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+
+#engineering{
+  position: absolute;
+  background-color: #333;
+  height: 120px;
+  width: 144px;
+  margin-left:124px;
+}
+
+#engi_stripe{
+  height: 50%;
+  width: 70%;
+  background-color: #ff6633;
+  border-radius: 6px;
+}
+
+#dorsal_tube{
+  position: absolute;
+  height:0; width: 200px;
+  border-bottom:42px solid #333;
+  border-right: 35px solid transparent;
+  border-left: 55px solid transparent;
+  margin-left: 255px;
+  margin-top: -162px;
+}
+
+#ventral_tube{
+  position: absolute;
+  height:0; width: 200px;
+  border-top:42px solid #333;
+  border-right: 35px solid transparent;
+  border-left: 55px solid transparent;
+  margin-left: 255px;
+  margin-top: 65px;
 }
 
 
